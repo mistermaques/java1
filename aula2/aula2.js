@@ -15,11 +15,19 @@ console.log(nome);
 
 //alert(number1 + number2);
 
-let number1 = parseFloat(prompt("digite um numero aqui"));
-let number2 = parseFloat(prompt("digite outro aqui "));
+//let number1 = parseFloat(prompt("digite um numero aqui"));
+//qlet number2 = parseFloat(prompt("digite outro aqui "));
 
 //let result = number1 + number2;
 
 //alert(result);
 
-alert(number1 - number2);
+//lert(number1 - number2);
+
+
+let nome = prompt("digite seu nome");
+let idade = Number(prompt("sua idade aqui"));
+
+const ana = 2023 - idade;
+alert(ana); 
+
